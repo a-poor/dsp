@@ -5,12 +5,12 @@ data scientists in favor of "fancier" coding languages. You really shouldn't
 do that though. Here are three (of many) reasons why:
 
   * It's very likely you won't have a GUI if you're working on remote servers
-  like Amazon's AWS or Google Cloud. You'll have to do command line.
+    like Amazon's AWS or Google Cloud. You'll have to do command line.
   * There are command line tools that can make your life a lot easier like
-  scp, grep, curl, etc
+    scp, grep, curl, etc
   * Jupyter Notebooks aren't an endpoint for development - so running python
-  scripts from the command line is going to be mandatory at some point in your
-  career.
+    scripts from the command line is going to be mandatory at some point in your
+    career.
 
 With that in mind, we're going to explore the basics of surviving in the
 command line today. Note that this exercise assumes you are working from top
@@ -68,7 +68,7 @@ cd test_directory
 This "changes directory" and makes the named directory our new working
 directory. 
 
-> Question: How could we make sure that we moved?
+> Check the new working directory with: `pwd`
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -144,7 +144,9 @@ This prints the data directly to stdout and we can see the whole dataset.
 Nice. 
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
-would we do that?
+> would we do that?
+>
+> Using: `curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt `
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -192,6 +194,8 @@ ls -lh
 ```
 
 > What changed?
+>
+> Now the file sizes are "human readable"
 
 If instead copying we just want to change the name of a file, we can do:
 
