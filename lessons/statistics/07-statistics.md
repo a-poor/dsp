@@ -119,7 +119,11 @@ The result is that there is a `45.45%` chance that Elvis was an identical twin.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Both are ways of approaching inferential statistics.
+
+Frequentists look at tests as samples taken from a larger population. Where the probability of an event is the frequency of the event's occurance after many repeated tests. 
+
+Bayesian statistics looks at the certainty or uncertainty in an event occuring or in a hypothesis, and uses repeated tests to continually update the uncertainty values.
 
 ---
 
